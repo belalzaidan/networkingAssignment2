@@ -1,5 +1,5 @@
 
-# DATA2410 - Oblig 2 &nbsp;&nbsp; <a href="https://github.com/belalzaidan"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" style="max-width:20px; filter: invert(60%)"></img></a>
+# DATA2410 - Oblig 2
 
 
 ### Achieved goals behind this assignment.
@@ -34,14 +34,14 @@ We start the server either through the terminal or directly within *VSC*. As a c
 
  This HTML page would be the server's response: 
 
-<img src="task-1~200 OK.png"></img>
+<img src="src/img/task-1~200 OK.png"></img>
 <small>Original design by: <a href="https://codepen.io/ambercheydesigns">Amber Martineau</a></small>
 
 $~$
 
 If the requested file does not file does not exsist, the client gets this response:
 
-<img src="task-1~404 Not Found.png"></img>
+<img src="src/img/task-1~404 Not Found.png"></img>
 
 After a client is connected, the server terminal logs the received request along with the corresponding status code that the client has received, as illustrated below:
 
