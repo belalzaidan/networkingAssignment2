@@ -21,7 +21,7 @@
 
 
 $~$
-#### \#  **Task 1 - Making a simple webserver (src/server.py)**
+### \#  **Task 1 - Making a simple webserver (src/server.py)**
 
 In this task, we had to create a basic web server that can handle one HTTP request at a time. The server should accept and parse the HTTP request, retrieve the requested file from its file system, construct an HTTP response message with header lines, and send the response directly to the client. If the requested file was not found, the server should return an HTTP "404 Not Found" message.
 
@@ -57,7 +57,7 @@ Connection: keep-alive
 Server responded with: 200 OK
 ```
 $~$
-#### \# **Task 2 - Making a web client (src/client.py)**
+### \# **Task 2 - Making a web client (src/client.py)**
 
 In this task, we've taken our project a step further by creating an HTTP client. This client lets us communicate with our server directly using Python's ```argparse``` module, without needing to use a web browser.
 
@@ -101,7 +101,7 @@ Server responded with: 404 Not Found
 Something to note is that currently, our HTTP server is configured to manage each HTTP request one by one. Let's say an HTTP request takes in average 800ms to be handled, this means that 3 requests recieved at the same time will be queued, and all together shall have gotten their response after 2400ms. 
 
 $~$
-#### \# **3 - Task 3: Making a multi-threaded web server (src/multithreadServer.py)**
+### \# **3 - Task 3: Making a multi-threaded web server (src/multithreadServer.py)**
 
 In this part, we've leveled up our web server by adding multi-threading capability. Now, when a client connects to our server, it doesn't have to wait for other clients' requests to finish processing. Each client gets its own thread, allowing multiple clients to be served at the same time. This improvement makes our server more efficient and responsive.
 
